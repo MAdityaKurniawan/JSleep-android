@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JSleep-android</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="jsleep">JSLEEP</string>
+</resources>
