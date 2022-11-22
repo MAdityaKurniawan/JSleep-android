@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25052083333333336" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2625" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2625" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25052083333333336" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/about_me.xml" value="0.12158054711246201" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_about_me.xml" value="0.2" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/layout/list_view.xml" value="0.11170212765957446" />
+        <entry key="..\:/Documents/KULIAH SEMESTER 5/Pemrograman Berorientasi Objek dan Praktikum/Praktikum/OOP/JSleep-android/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>
   </component>

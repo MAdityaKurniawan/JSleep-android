@@ -1,24 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/purple_500"
-    tools:context=".MainActivity">
-<TextView
-    android:id="@+id/hello"
-    android:layout_width="200sp"
-    android:layout_height="wrap_content"
-    android:textColor="@color/white"
-    android:textSize="38sp"
-    android:textStyle="bold"
-    android:textAlignment="center"
-    android:text="Hello User !"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"/>
 
+<!--<TextView-->
+<!--    android:id="@+id/hello"-->
+<!--    android:layout_width="200sp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textColor="@color/white"-->
+<!--    android:textSize="38sp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textAlignment="center"-->
+<!--    android:text="@string/hello_user"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"/>-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/purple_500"
+        tools:context=".MainActivity"
+        android:id="@+id/mainLinearLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="600sp"
+        android:layout_marginTop="55sp"
+        android:orientation="vertical">
+    </ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-412.5sp">
+            <Button
+                android:id="@+id/previous"
+                android:layout_marginRight="2sp"
+                android:layout_marginLeft="2sp"
+                android:layout_width="99dp"
+                android:layout_height="50dp"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/black"
+                />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="99dp"
+                android:layout_height="50dp"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/black"
+                android:layout_marginRight="2sp"
+                android:layout_marginLeft="2sp"
+                />
+            <EditText
+                android:id="@+id/inputNumber"
+                android:layout_width="99dp"
+                android:layout_height="25dp"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:inputType="number"
+                android:hint="ID"
+                android:layout_marginRight="2sp"
+                android:layout_marginLeft="2sp"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/go"
+                android:layout_width="99dp"
+                android:layout_height="50dp"
+                android:text="Go"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/black"
+                android:layout_marginRight="2sp"
+                android:layout_marginLeft="2sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+

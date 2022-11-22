@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:padding="19sp"
         android:background="@color/purple_500"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,24 +24,24 @@
         />
     <EditText
         android:id="@+id/name"
+        android:hint="Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias=".45"
         android:inputType="text"
-        android:text="Name"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
 
-        />
+        android:autofillHints="" />
     <EditText
         android:id="@+id/email"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:text="Email"
+        android:hint="Email"
         android:inputType="textEmailAddress"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -50,13 +50,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias=".55" />
+        app:layout_constraintVertical_bias=".55"
+        android:autofillHints="" />
     <EditText
         android:id="@+id/password"
         android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:text="Password"
-        android:inputType="text"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,7 +65,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias=".65" />
+        app:layout_constraintVertical_bias=".65"
+        android:autofillHints="" />
     <Button
         android:id="@+id/loginButton"
         app:layout_constraintBottom_toBottomOf="parent"

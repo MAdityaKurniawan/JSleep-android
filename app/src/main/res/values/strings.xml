@@ -4,4 +4,10 @@
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="jsleep">JSLEEP</string>
+    <string name="register_now">Register Now!</string>
+    <string name="don_t_have_account">Don\'t have Account?</string>
+    <string name="hello_user">Hello User !</string>
+    <string name="search_button">Search Button</string>
+    <string name="person_button">Person Button</string>
+    <string name="add_button">Add Button</string>
 </resources>
